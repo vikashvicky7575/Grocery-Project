@@ -1,0 +1,41 @@
+.showcase {
+  padding-bottom: 3rem;
+}
+
+.productCard {
+  border: none;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.productImg {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.offerPrice {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 1rem;
+}

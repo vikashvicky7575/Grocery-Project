@@ -1,0 +1,48 @@
+/* Brand styling */
+.brand {
+  letter-spacing: 1px;
+}
+
+.brand:hover {
+  color: #dfffd6 !important;
+  transition: color 0.3s ease;
+}
+
+/* Link block design */
+.link {
+  display: block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #fff !important;
+}
+
+.link:hover,
+.link.active {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff !important;
+}
+
+/* Login button */
+.loginBtn {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+}
+
+.loginBtn:hover {
+  background-color: #eaffea !important;
+  color: #198754 !important;
+}
+
+.cartBadge {
+  font-size: 0.7rem;
+  border-radius: 50%;
+  padding: 4px 6px;
+}
+/* Mobile layout */
+@media (max-width: 992px) {
+  .link {
+    margin: 5px 0;
+  }
+}
